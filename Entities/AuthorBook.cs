@@ -11,4 +11,13 @@ namespace BookStore.Entities
         public int AuthorId { get; set; }
         public virtual Author Author { get; set; }
     }
+    //    public class AuthorBook
+    // {
+    //     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    //     public int Id { get; set; }
+    //     public int BookId { get; set; }
+    //     public virtual Book Book { get; set; }
+    //     public int AuthorId { get; set; }
+    //     public virtual Author Author { get; set; }
+    // }
 }
